@@ -1,55 +1,79 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo de Maísa Bilenki</title>
+    <title>Maísa Bilenki - Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
+            margin: 0;
+            padding: 0;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
             padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-color: white;
         }
-        h1 {
+        h1, h2, h3 {
             color: #6B8E23;
-        }
-        .contact-info {
-            margin: 20px 0;
         }
         .section {
             margin-bottom: 30px;
-            padding: 15px;
-            background-color: #ffffff;
+        }
+        .contact, .education, .experience, .certifications {
+            padding: 10px;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            background-color: rgba(255, 255, 255, 0.9);
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .experience-item {
+            margin-bottom: 15px;
         }
     </style>
 </head>
 <body>
-    <h1>Currículo de Maísa Bilenki</h1>
-    <div class="section">
-        <h2>Informações Pessoais</h2>
-        <p>Posição Atual: <strong>Marketing Professional na Tecban</strong></p>
-        <p>Experiência: Mais de 10 anos em Marketing e Comunicação.</p>
-    </div>
-    <div class="section">
-        <h2>Formação Acadêmica</h2>
-        <p>• Comunicação</p>
-        <p>• Psicologia</p>
-        <p>• Sexualidade</p>
-    </div>
-    <div class="section contact-info">
-        <h2>Informações de Contato</h2>
-        <p>Email: maisa.bilenki@example.com</p>
-        <p>Telefone: (11) 91234-5678</p>
-    </div>
-    <div class="section">
-        <h2>Conquistas</h2>
-        <ul>
-            <li>Desenvolvimento de campanhas premiadas em Marketing Digital.</li>
-            <li>Implementação de estratégias que aumentaram a taxa de conversão em 40%.</li>
-        </ul>
+    <div class="container">
+        <h1>Maísa Bilenki</h1>
+        <div class="contact section">
+            <h2>Contact Information</h2>
+            <p>Email: maisabilenki@email.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>LinkedIn: linkedin.com/in/maisabilenki</p>
+        </div>
+        <div class="education section">
+            <h2>Education</h2>
+            <h3>Bachelor of Arts in Communications</h3>
+            <p>University of Creative Arts, 2018 - 2021</p>
+        </div>
+        <div class="experience section">
+            <h2>Professional Experience (2020 - 2025)</h2>
+            <div class="experience-item">
+                <h3>Senior Marketing Manager</h3>
+                <p>Creative Agency | 2023 - Present</p>
+                <p>Leading marketing strategies and campaigns, increasing customer engagement.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Marketing Coordinator</h3>
+                <p>Innovative Solutions | 2021 - 2023</p>
+                <p>Coordinated marketing efforts, improving brand visibility and outreach.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Marketing Intern</h3>
+                <p>StartUp Co. | 2020 - 2021</p>
+                <p>Assisted in various marketing projects, gained hands-on experience in digital marketing.</p>
+            </div>
+        </div>
+        <div class="certifications section">
+            <h2>Certifications</h2>
+            <p>Certified Digital Marketing Professional (2022)</p>
+            <p>Google Analytics Certified (2023)</p>
+        </div>
     </div>
 </body>
 </html>
